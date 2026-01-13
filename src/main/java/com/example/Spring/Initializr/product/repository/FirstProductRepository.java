@@ -22,9 +22,9 @@ import org.springframework.data.jpa.repository.JpaRepository;
 
 
         private Product setId(Product entity) {
-            if (entity.getId() != null) { // Если ID уже есть (это обновление)
+            if (entity.getId() != null) {
                 map.put(entity.getId(), entity);
-            } else { // Если ID нет (это создание нового)
+            } else {
                 entity.setId(counter);
                 map.put(counter, entity);
                 counter++;

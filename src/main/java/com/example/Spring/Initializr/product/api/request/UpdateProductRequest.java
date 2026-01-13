@@ -7,7 +7,7 @@ public class UpdateProductRequest extends ProductRequest {
 
     @JsonCreator
     public UpdateProductRequest(String name, Long id) {
-        super(name); // Передаем имя в родительский класс ProductRequest
+        super(name);
         this.id = id;
     }
 
