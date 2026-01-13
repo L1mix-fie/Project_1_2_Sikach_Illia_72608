@@ -1,6 +1,8 @@
+# Task 1 Pinned like another branch
+<img width="1888" height="967" alt="image" src="https://github.com/user-attachments/assets/25d9e83a-5638-416d-9a99-c878b64cb101" />
 
 # Task 2 – Spring Boot REST API Application
-## Task 1 Pinned like another branch
+
 
 Product Management REST API A Spring Boot application developed as part of Task 2, showcasing backend development skills and CRUD operations.
 Backend: Spring Boot / Java
